@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="loginpage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="login-box">
+        <h1>Logo</h1>
+        <form action="loginpage.jsp" method="post" onsubmit="return checkLogin()" name="loginaction">
+            <div id="input-box">    
+                <input type="text" id="loginId" name="sendId">
+                <input type="text" id="loginPw" name="sendPw">
+            </div>
+            <div id="submit-box">
+                <input type="submit" id="loginBtn" value="로그인">
+                <a href="register.html" id="registerBtn">회원가입</a>
+            </div>
+        </form>
+    </div>
+</body>
+    <script>
+        function checkLogin(){
+            if(!document.loginaction.sendId.value){
+                alert("아이디 입력하세요");
+                return false;
+            }
+            if(!document.loginaction.sendPw.value){
+                alert("비밀번호 입력하세요");
+                return false;
+            }
+        }
+    </script>
+</html>
+
+

@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#register-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: #E50914;
+}
+#click-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+a{
+    background-color: #333333;
+    color: white;
+}
+#submitInfo{
+    background-color: #E50914;
+    color: white;
+}
+table{
+    color: white;
+}

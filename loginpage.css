@@ -1,0 +1,37 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black ;
+}
+#login-box{
+    display: flex;
+    width: auto;
+    height: 100%;
+    flex-direction: column;
+    background-color: black;
+}
+h1{
+    width: auto; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #E50914;
+}
+#input-box{
+    display: flex;
+    flex-direction: column;
+}
+#submit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#loginBtn{
+    background-color: #333333;
+    color: white;
+}
+#registerBtn{
+    background-color: #E50914;
+    color: white;
+}

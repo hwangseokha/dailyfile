@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+#topBox{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+#LogoBox{
+    color: #E50914;
+    text-align: center;
+    font-size: large;
+    font-weight: border;
+}
+#userinfoBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #E50914;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.userinfo{
+    color: black;
+    background-color: white;
+}
+#addBox{
+    display: flex;
+    justify-content: center;
+}
+#logout-box{
+    margin-top: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    color: white;
+    background-color: #E50914;
+}
+#remoteBox{
+    background-color: #E50914;
+    display: flex;
+}
+#scheduleBox{
+    display: flex;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
